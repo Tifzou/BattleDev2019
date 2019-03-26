@@ -32,11 +32,11 @@ public static void main( String[] argv ) throws Exception {
 		}
         System.err.println(classement);
 
-		if(classement >= 10000)
+		if(classement > 10000)
         {
             System.out.println("KO");
         }
-        else if(classement < 10000 && classement > 100)
+        else if(classement <= 10000 && classement > 100)
         {
             System.out.println(100);
         }
